@@ -25,12 +25,12 @@ The project demonstrates a simple CRUD-style workflow with a graphical interface
 
 ```text
 personal-finance-tracker/
-├── app.py           # Tkinter application and UI
-├── database.py      # Database setup, queries and business logic
-├── data/
+├── main.py           # Tkinter application and UI
+├── helper.py           # Tkinter application and UI
+├── db/
 │   └── .gitkeep     # Keeps the data directory in Git
+    └── database.db 
 ├── .gitignore
-├── README.md
 └── requirements.txt
 ```
 
@@ -41,7 +41,7 @@ The actual SQLite database is generated automatically at `data/finance.db` when 
 Clone the repository and run:
 
 ```bash
-python app.py
+python main.py
 ```
 
 No external packages are required.
