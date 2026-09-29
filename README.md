@@ -25,13 +25,12 @@ The project demonstrates a simple CRUD-style workflow with a graphical interface
 
 ```text
 personal-finance-tracker/
-├── main.py           # Tkinter application and UI
-├── helper.py           # Tkinter application and UI
+├── main.py
+├── helper.py
 ├── db/
-│   └── .gitkeep     # Keeps the data directory in Git
-    └── database.db 
-├── .gitignore
-└── requirements.txt
+│   └── database.db
+├── README.md
+└── .gitignore
 ```
 
 The actual SQLite database is generated automatically at `data/finance.db` when the application starts. It is intentionally excluded from Git so that personal financial data is not published.
